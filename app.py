@@ -6,7 +6,7 @@ import requests
 
 
 
-api_key = "1a87008197fdcba6e4a282f5eb860a30"
+api_key = "" #Get a free api key from https://openweathermap.org/current
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 complete_url = base_url + "appid=" + api_key + "&q=Sydney"
 response = requests.get(complete_url)
